@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+/uploads/
+/New_datasets/
+balance_dataset.py
+download_test_images.py
+training_output/
+validation_output/
+Datasets_Balanced/
+train_enhanced_deepfake_model.py
+/app/generated/prisma/
+run_enhanced_training.py
+test_images/
+testing_images/
+explanation.txt
+PROJECT_SUMMARY.md
+extract_test_images.py
+new_training_output/
+prisma/migrations/*
+train_deepfake_model.py
